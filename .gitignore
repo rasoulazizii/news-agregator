@@ -1,0 +1,136 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+pytest_cache/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+# If you collect static files to a folder, ignore the collection directory:
+staticfiles/
+# don't ignore your app static/ or templates/ by default
+
+# Migrations - ignore compiled files and caches, but keep migration source files
+**/migrations/__pycache__/
+**/migrations/*.py[cod]
+# (Do NOT ignore the migrations/*.py source files themselves unless intentional)
+
+# Environment variables / secrets
+.env
+.env.*.local
+.env.local
+.envrc
+*.env
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# IDE: JetBrains
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and runtime files
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Sphinx documentation
+docs/_build/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# C extensions
+*.so
+
+# Coverage reports
+coverage.xml
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Node / frontend (if you have a frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+.env.docker
+
+# System files
+*.swp
+*~
