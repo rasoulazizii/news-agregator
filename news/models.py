@@ -11,4 +11,11 @@ class NewSource(models.Model):
     is_active = models.BooleanField(default=False)
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
 
+class Article(models.Model):
+    source = models.ForeignKey(NewSource, on_delete=models.CASCADE)
+    title = models.CharField(max_length=220)
+    link = models.URLField()
+    description = models.TextField()
+    published_date = models.DateTimeField()
+    created_at = models.DateTimeField(auto_now_add=True)
 
