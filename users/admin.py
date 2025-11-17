@@ -3,4 +3,9 @@ from django.contrib.auth.admin import UserAdmin
 from .models import CustomUser, Profile
 
 admin.site.register(CustomUser, UserAdmin)
-admin.site.register(Profile)
+
+@admin.register(Profile)
+class ProflieAdmin(admin.ModelAdmin):
+    list_display = ('user',)
+    filter_horizontal = ('interested_categories',)
+    
