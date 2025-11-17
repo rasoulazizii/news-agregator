@@ -7,3 +7,6 @@ class Profile(models.Model):
     interested_categories = models.ManyToManyField(
         Category
     )
+
+    def __str__(self):
+        return self.user.username
